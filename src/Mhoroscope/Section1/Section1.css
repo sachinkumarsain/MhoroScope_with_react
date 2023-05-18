@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section .left{
+    width: 32%;
+    height: 600px;
+    position: relative;
+}
+section .left h2{
+    position: absolute;
+    bottom: 2%;
+    right: 5%;
+
+}
+section .left h2 span{
+    color: white;
+    margin: 0px 10px;
+    font-size: 20px;
+}
+section .left::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0,0,0,0.4);
+}
+section .left .leftCoverContant{
+    position: absolute;
+    width: 90%;
+    bottom: 8%;
+    right: 5%;
+}
+section .left .leftCoverContant h1{
+    font-size: 46px;
+    color: white;
+}
+section .left .leftCoverContant p{
+    font-size: 17px;
+    padding: 1px 5px;
+    border-radius: 4px;
+    color: white;
+    width: 40%;
+    background-color: #fbc303;
+}
+section .right{
+    width: 63%;
+    padding-top:20px;
+    margin: 10px;
+
+}
+section .right .arrow{
+    margin-top: 70px;
+    width: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section .right .arrow span{
+    background-color: white;
+    font-size: 7px;
+    box-shadow: 0 0 10px 2px rgb(204, 203, 203);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    margin: 8px;   
+}
+section .right .top{
+    width: 80%;
+}
+section .right .top h1{
+    font-size: 65px;
+}
+section .right .top p{
+    font-size: 22px;
+}
+section .right .top h1 span{
+    color:#fbc303;
+}
+section .right .bottom{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin:50px 50px 20px 0px;
+   
+}
+section .right .bottom .img-package{
+    width:32%;
+    position: relative;
+}
+section .right .bottom .img-package img{
+    width: 100%;
+    border-radius: 8px;
+}
+section .right .bottom .img-package .packages{
+    width: 90%;
+    background-color: white;
+    text-align:left;
+    padding:8px 30px;
+    position: absolute;
+    bottom: -15%;
+    border-radius:10px;
+    box-shadow: 0px 0px 12px 2px rgb(198, 198, 198);
+    left: 5%;
+}
+section .right .bottom .img-package .packages h2{
+    padding: 5px 0;
+    font-size: 20px;
+}
+section .right .bottom .img-package .packages p{
+    color: rgb(69, 68, 68);
+}
+
+section .left img{
+    width: 100%;
+    height: 100%;
+}
